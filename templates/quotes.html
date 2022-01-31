@@ -1,0 +1,11 @@
+{% extends "layout.html" %} 
+
+{% block content %} 
+{% for d in data %}
+
+    <p><em>{{ d.name }} </em> : <em> {{ d.quote }} </em>
+    </p> 
+{% else %}
+  <em>Nothing Found :(</em>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,75 @@
+h1 {
+    color: brown;
+    font-family: revert;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+.button-container > button{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(119, 158, 226);
+    color: crimson;
+    width:90px;
+    outline: none;
+}
+.button-container{
+    margin: 2px;
+    text-align: center;
+}
+.container{
+    background-color: rgb(30, 41, 80);
+    border-radius: 8px;
+    padding-bottom: 90px;
+}
+.main-container{
+    background-color: crimson;
+    width: 40%;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    min-height: 150px;
+}
+.text-output{
+    border-radius: 5px;
+    width: 60%;
+    min-height: 74px;
+    background-color: orange;
+}
+.show-sst{
+    display: flex;
+    justify-content: space-around;
+}
+.show-sst > button{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(119, 158, 226);
+    color: crimson;
+    width: 90px;
+    margin: 17px 0;
+}
+.active-button{
+    background-color: red !important;
+    color: black !important;
+}
+.active{
+    display: flex !important;
+}
+.show-tts > button{
+    height: 40px;
+    color: rgb(206, 7, 7);
+    background-color: rgb(119, 158, 226);
+    border-radius: 5px;
+    border: none;
+    width: 87px;
+    outline: none;
+    margin: 6px 0;
+
+
+}
+.show-tts{
+    display: flex;
+    justify-content: space-around;
+}

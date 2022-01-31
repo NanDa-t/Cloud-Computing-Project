@@ -1,0 +1,5 @@
+AZDBSERVER = 'vmenserver.database.windows.net'
+AZDBNAME = 'final'
+AZDBUSER = 'vmen'
+AZDBPW = 'Adnan123'
+AZDBDRIVER = '{ODBC Driver 17 for SQL Server}'
